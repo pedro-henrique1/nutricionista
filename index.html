@@ -20,6 +20,8 @@
 	<main>
 		<section class="container">
 			<h2>Meus pacientes</h2>
+			<label form="flitrar-tabela">Filtre:</label>
+			<input type="text" name="filtro" id="filtrar-tabela" placeholder="nome">
 			<table>
 				<thead>
 					<tr>
@@ -71,13 +73,16 @@
 					</tr>
 				</tbody>
 			</table>
+			<span id="erro-ajax" class="invisivel" > Erro ao buscar os pacientes</span>
+
+			<button id="buscar-pacientes" class="botao bto-principal">buscar paciente</button>
 
 		</section>
 	</main>
 	<section class="container">
 		<h2 id="titulo-form">Adicionar novo paciente</h2>
 		<ul id="mensagens-erro">
-			
+
 		</ul>
 		<form id="form-adiciona">
 			<div class="grupo">
@@ -99,13 +104,15 @@
 				<input id="gordura" type="text" placeholder="digite a porcentagem de gordura do seu paciente"
 					class="campo campo-medio">
 			</div>
-
-			<button id="adicionar-paciente" class="botao bto-principal">Adicionar</button>
+			<button id="adicionar-paciente" class="botao-principal">Adicionar</button>
 		</form>
 	</section>
 	<script src="./js/calcular.js"></script>
 	<script src="./js/form.js"></script>
-	<script src="js/remover.js"></script> 
+	<script src="js/remover.js"></script>
+	<script src="js/filtrar.js"></script>
+	<script src="js/buscar-pacientes.js"></script>
+
 </body>
 
 </html>
