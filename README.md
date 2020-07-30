@@ -11,15 +11,10 @@
 
 ## Links das tecnologia usadas 🔗
 
-👉🏼 [graficos](https://developers.google.com/chart/)<br>
 👉🏼 [html5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)<br>
 👉🏼 [css3](https://developer.mozilla.org/pt-br/docs/web/css)<br>
 👉🏼 [javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/About_JavaScript)
 <br>
-
-<h4 align="center"> 
-	🚧 Em construção...  🚧
-</h4>
 
 ## Como usar 🎉
 
@@ -30,11 +25,11 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 ```zsh
 ## Clone este repositório
 
-$ git clone https://github.com/pedro-henrique1/paginacao.git
+$ git clone https://github.com/pedro-henrique1/nutricionista.git
 
 ## Acesse a pasta do projeto no terminal/cmd
 
-$ cd paginacao
+$ cd nutricionista
 
 ## baixar as dependências do projeto
 
